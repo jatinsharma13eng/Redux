@@ -4,7 +4,7 @@ import signupReducer from './reducer/signupReducer';
 
 const store = configureStore({
   reducer: {
-    login: loginReducer,
+    login: loginReducer, 
     signup: signupReducer,
   },
 });
